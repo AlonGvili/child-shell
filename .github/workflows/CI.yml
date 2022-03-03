@@ -37,7 +37,7 @@ jobs:
       # Latest npm is needed for workspaces capabilities
       - name: Install npm latest
         run: npm install -g npm
-
+      - run: npm install
       - run: npm ci
 
       - run: npm run format:check
