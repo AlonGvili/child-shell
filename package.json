@@ -9,10 +9,10 @@
     "packages/*"
   ],
   "engines": {
-    "node": ">=10.24.1"
+    "node": ">=12"
   },
   "devEngines": {
-    "node": ">=v14.18.1",
+    "node": ">=12",
     "npm": ">=7.24.2"
   },
   "scripts": {
